@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>WARDROBE</title>
+		<!--<link href="css/bootstrap.min.css" rel="stylesheet">
+		[if lt IE 9]>
+			<script src="js/html5shiv.js"></script>
+			<script src="js/respond1.4.2.min.js"></script>
+		<![endif]-->
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link href='http://fonts.googleapis.com/earlyaccess/notosanstc.css' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/unslider.css">
+		<link rel="stylesheet" href="css/unslider-dots.css">
+		<link href="wardrobe.css" rel="stylesheet" type="text/css">
+		<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+		<link rel="Bookmark" href="images/favicon.png" type="image/x-icon" />
+
+		<link rel="stylesheet" href="css/animate.css">
+		<script src="js/jquery.viewportchecker.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="css/dialog.css" />
+		<link rel="stylesheet" type="text/css" href="css/dialog-don.css" />
+		<script src="js/modernizr.custom.js"></script>
+
+		
+		<style type="text/css">
+			.unslider-nav{
+				position:relative;
+				z-index:4;
+			}
+		</style>
+
+
+
+	</head>
+	<body>
+
+	<div class="body">
+		
+<svg version="1.0" id="poly" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="960px" height="3212px" viewBox="0 0 960 3212" enable-background="new 0 0 960 3212" xml:space="preserve">
+<polyline class="path" opacity="0.3" fill="none" stroke="#414140" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="9.8541" points="
+	505,24 205,291.47 322.513,458.39 548.433,519.269 648.928,697.544 151.093,896.185 194.45,1162.281 591,1239.47 825,1419.47 
+	697,1649.97 319,1712.47 141,1905.72 213,2148.595 798,2346.532 861,2481.501 492,2562.47 186,2835.47 303.513,3002.39 
+	529.433,3063.269 629.928,3241.544 "/>
+</svg>
+
+
+		<!--header-->
+		<input type="checkbox" name="" id="menuBtn">
+
+			<div class="header">
+				<div class="headerContent">
+				<div class="logo">
+					<a href="index.html" >
+					<img src="images/img/logo.svg" height="80" width="294" alt="logo"></a>
+				</div>
+
+				<div class="ham"><label for="menuBtn"><i class="fa fa-bars"></i></label></div>
+				
+
+				<div class="search">
+
+				<a data-dialog="somedialog" class="trigger" id="login">登入</a>
+
+				<input type="search" placeholder="搜尋" id="search">
+
+				</div>
+				
+
+				<div class="nav">
+					<nav>
+						<ul>
+							
+							<li><a href="bloggerNews.html">名人/部落客</a></li>
+							<li><a href="News.html">流行速報</a></li>
+							<li><a href="itemClothes.html">主題分類</a></li>
+							<li><a href="myWardrobe.html">我的衣櫥</a></li>
+						</ul>
+					</nav>
+				</div>
+				</div>
+
+				<div class="hamSecondNav">
+     				<nav>
+     					<dl>
+							<dt><input type="search" placeholder="搜尋" id="search"></dt>
+
+							<dt><a href="index.html">首頁</a></dt>
+
+							<dt><a href="#">名人/部落客▼</a></dt>
+							  <dd>
+							    <ul>
+							      <li><a href="blogger.html">駐站名人/部落客</a></li>
+							      <li><a href="bloggerNews.html">最新文章</a></li>
+							    </ul>
+							  </dd>
+
+							<dt><a href="News.html">流行速報</a></dt>
+							  
+							<dt><a href="#">主題分類▼</a></dt>
+							  <dd>
+							     <ul>
+							      <li><a href="itemClothes.html">衣著類</a></li>
+							      <li><a href="itemAccessories.html">配件</a></li>	
+							      <li><a href="itemShoes.html">鞋類</a></li>
+							      <li><a href="itemBeauty.html">美妝</a></li>
+							    </ul>
+							  </dd>
+
+							<dt><a href="myWardrobe.html">我的衣櫥</a></dt>
+
+							<dt><a href="#" id="login">登入</a></dt>
+
+						</dl>
+					</nav>
+						
+					
+     			</div>
+
+
+			</div>
+		
+		<div class="bigPic">
+					<ul>
+						<li><img src="images/img/mainBigPic-03.jpg" height="1047" width="2200" alt=""></li>
+						<li><img src="images/img/mainBigPic-01.jpg" height="1047" width="2200"></li>
+						<li><img src="images/img/mainBigPic-02.jpg" height="1047" width="2200"></li>
+					</ul>
+				</div>
+
+
+
+		<!-- content -->
+	<div class="content">
+			<!-- ad -->
+
+
+
+				<!-- <div class="bigPic">
+					<img src="images/img/head_02.jpg" height="456" width="960" alt="">
+				</div> -->
+
+				
+			
+				<!-- news -->
+				
+				<div class="newsTitle fadeInUp">
+				<img src="images/img/newsTitle_13.png" height="239" width="224" alt="流行速報"></div>
+
+				<div class="sloganRight">
+					從街頭走進高端時尚，跟隨2016最新流行指標。
+				</div>
+
+				
+
+				<div class="infoContainer">
+
+			
+						<div class="indexInfoBox">
+								<div class="likeButton">
+									<a like="toWardrobe" class="trigger"><img src="images/img/article/share_icon_21.png" height="26" width="26"></a>
+								</div>
+							<div class="smallInfo">
+								
+
+								<div class="infoPic">
+									<a href="articleNews.html"><img src="images/img/news/news_2_05.jpg" height="277" width="276"></a>
+								</div>
+								
+								<div class="infoName">
+									<a href="articleNews.html">色彩美學穿搭</a>
+								</div>
+
+								<div class="infoWords">要怎麼搭衣服才好看呢? 這次特別傳授簡單的概念，如果有讀過色彩...</div>
+							</div>
+						</div>
+				
+
+					
+
+					
+						<div class="indexInfoBox">
+
+							<div class="likeButton">
+									<a like="toWardrobe" class="trigger"><img src="images/img/article/share_icon_21.png" height="26" width="26"></a>
+								</div>
+
+							<div class="smallInfo">
+								<div class="infoPic">
+									<a href="articleNews_haircolor.html"><img src="images/img/news/hotnews_11.jpg" height="281" width="256"></a>
+								</div>
+
+								<div class="infoName">
+									<a href="articleNews_haircolor.html">2016最流行髮色</a>
+								</div>
+
+								<div class="infoWords">融化系漸層柔軟髮～<br>染上去的顏色看起來就像你的原生髮！</div>
+							</div>
+						</div>
+				
+
+						<div class="indexInfoBox">
+
+							<div class="likeButton">
+									<a href=""></a><img src="images/img/article/share_icon_21.png" height="26" width="26">
+								</div>
+
+							<div class="smallInfo">
+								<div class="infoPic">
+								<a href=""><img src="images/img/index_32.jpg" height="146" width="146"></a></div>
+
+								<div class="infoName small">
+								<a href="">歐美爆紅油彩指甲</a>
+								</div>
+
+								<div class="infoWords">這光澤是雨後地上的彩虹！現在居然有人把這種特殊的彩色光澤放到指甲上變成全新...</div>
+							</div>
+						</div>
+
+					
+
+
+					<div class="indexInfo40Box">
+
+						<div class="likeButton">
+							<a href=""><img src="images/img/article/share_icon_21.png" height="26" width="26"></a>
+						</div>
+
+
+						<div class="indexInfo40">
+							<div class="infoPic"><img src="images/img/news/index2016031063978505.jpg" height="266" width="345"></div>
+
+							<div class="info40Article">
+								<a href="articleNews_adidas.html">
+								<h3>adidas Originals春夏聯名HYKE<br>注入日式美學簡約精神</h3></a>
+								<span>2016年adidas Originals by HYKE春夏系列以高端的日式美學精神將adidas Originals經典運動服飾重新解構，塑造當代的時尚風貌。...</span>
+							</div>
+						</div>
+					</div>
+
+
+
+				</div>
+
+
+
+
+				<div class="infoContainer">
+					<div class="indexInfo60Box">
+
+						<div class="likeButton">
+							<a href=""><img src="images/img/article/share_icon_21.png" height="26" width="26"></a>
+						</div>
+
+						<div class="indexInfo60">
+							<div class="infoPic60"><img src="images/img/news/2016030765124525.jpg" height="491" width="970"></div>
+							
+							<div class="info60Article">
+								<a href="">
+								<h3>CP值超高百搭單品！<br>2016春夏必投資的飛行夾克怎麼穿</h3></a>
+								<span>飛行員夾克從去年秋冬一路延燒至今，識別度極高的外型，只要穿上緊身窄管褲，就能輕易打造出又酷又有型的帥氣Look...</span>
+							</div>
+						</div>
+					</div>
+
+
+
+					<div class="indexInfoBox">
+
+						<div class="likeButton">
+							<a href=""><img src="images/img/article/share_icon_21.png" height="26" width="26"></a>
+						</div>
+
+						<div class="smallInfo">
+							<div class="infoPic">
+							<a href=""><img src="images/img/news/hotnews_13.jpg" height="253" width="256"></a></div>
+							
+							<div class="infoName small">
+								<a href="">今夏最夯丹寧風</a>
+							</div>
+
+							<div class="infoWords">
+								牛仔衣物大概是時尚界裡最長青和不會過時的單品，今個春日，不少潮人都從衣櫥裡掏出...
+							</div>
+						</div>
+					</div>
+
+					<div class="indexInfoBox">
+
+						<div class="likeButton">
+							<a href=""></a><img src="images/img/article/share_icon_21.png" height="26" width="26">
+						</div>
+
+						<div class="smallInfo">
+							<div class="infoPic">
+							<a href=""><img src="images/img/index_34.jpg" height="146" width="146"></a></div>
+
+							<div class="infoName">
+								<a href="">放閃特輯</a>
+							</div>
+
+							<div class="infoWords">看看我跟閃光寒流怎麼穿？首爾「厚重情侶裝」甜蜜街拍！<br>
+
+							<br>
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+
+
+
+
+				<div class="moreIcon">
+                	<a href="news.html"> </a> 
+                </div>
+
+
+
+                <!-- wardrobe -->
+
+                <div class="wardrobeTitle">
+                	<img src="images/img/wardrobe-page_34.gif" height="270" width="366" alt="我的衣櫥">
+                </div>
+
+                <div class="goWardrobe">
+                	<a href="myWardrobe.html" ><!-- <img src="images/img/wardrobe-page_11.jpg" height="320" width="320" alt="進入我的衣櫥"> --></a>
+                </div>
+
+
+
+                <!-- blogger -->
+
+                <div class="bloggerTitle">
+                	<img src="images/img/bloggerTitle.png" height="282" width="267" alt="名人/部落客">
+                	<div class="sloganLeft">
+                	在時尚圈打滾的達人們，親傳最時髦穿搭技巧。
+                </div>
+                </div>
+
+                
+
+
+                <div class="infoContainer">
+                	
+
+					<div class="indexInfo40Box">
+
+						<div class="likeButton">
+							<a href=""><img src="images/img/article/share_icon_21.png" height="26" width="26"></a>
+						</div>
+
+
+						<div class="indexInfo40">
+							<div class="infoPic"><img src="images/img/article/article_18.jpg" height="293" width="440"></div>
+
+							<div class="info40Article">
+								<a href="articleBlogger.html">
+								<h3>蔡宜樺，小花<br>護唇膏魔人的平價推薦產品</h3></a>
+								<span>「哪三樣東西是出門必備的？」曾經在某則採訪當中被編輯問到的問題。
+								「手機、錢包、護唇膏。」當時毫不猶豫的回答。...</span>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="indexInfoBox">
+						<div class="likeButton">
+							<a href=""><img src="images/img/article/share_icon_21.png" height="26" width="26"></a>
+						</div>
+						<div class="smallInfo">
+							<div class="infoPic">
+							<a href=""><img src="images/img/index_31.jpg" height="146" width="146"></a></div>
+
+							<div class="infoName small">
+								<a href="">Victoria Beckham</a>
+							</div>
+
+							<div class="infoWords">
+								貝嫂大多都喜愛基本的黑白兩色，卻從這兩個對比又簡單的色彩中變出許多花樣，到底該怎麼駕馭...
+							</div>
+
+						</div>
+					</div>
+
+
+					<div class="indexInfoBox">
+						<div class="likeButton">
+							<a href=""><img src="images/img/article/share_icon_21.png" height="26" width="26"></a>
+						</div>
+						<div class="smallInfo">
+							<div class="infoPic">
+							<a href=""><img src="images/img/index_22.jpg" height="146" width="146"></a></div>
+							<div class="infoName">
+							<a href="">Ruby Rose</a>
+							</div>
+
+							<div class="infoWords">
+								偷學！Ruby Rose 帥女孩的穿搭技巧～女生學著這樣穿不只很帥還 辣 到 爆 ！
+							</div>
+
+						</div>
+					</div>
+
+
+
+					<div class="indexInfoBox">	
+						<div class="likeButton">
+							<a href=""><img src="images/img/article/share_icon_21.png" height="26" width="26"></a>
+						</div>				
+						<div class="smallInfo">
+							<div class="infoPic">
+							<a href=""><img src="images/img/index_28.jpg" height="146" width="146"></a></div>
+
+							<div class="infoName">
+								<a href="">孔孝真</a>
+							</div>
+
+							<div class="infoWords">爆紅的孔孝真，不但被封為「韓劇女王」，不管事劇裡的穿搭還是私下的打扮都具有話題性...</div>
+
+						</div>
+					</div>
+
+
+					
+
+
+
+
+				</div>
+
+
+
+
+				<div class="infoContainer">
+
+					<div class="indexInfoBox">
+						<div class="likeButton">
+							<a href=""><img src="images/img/article/share_icon_21.png" height="26" width="26"></a>
+						</div>
+						<div class="smallInfo">
+							<div class="infoPic">
+							<a href=""><img src="images/img/blogger_26.jpg"></a></div>
+							<div class="infoName">蔡宜樺，小花</div>
+							<div class="infoWords">100%台灣人，在學時接觸模特兒工作，大學畢業後憑著一股傻氣的衝動及對時尚的熱情到了...</div>
+
+						</div>
+					</div>
+
+
+					<div class="indexInfoBox">
+						<div class="likeButton">
+							<a href=""><img src="images/img/article/share_icon_21.png" height="26" width="26"></a>
+						</div>
+						<div class="smallInfo">
+
+							<div class="infoPic">
+							<a href=""><img src="images/img/index_25.jpg" height="146" width="146"></a></div>
+
+							<div class="infoName">
+								<a href="">Gigi Hadid</a>
+							</div>
+							<div class="infoWords">偷學！Ruby Rose 帥女孩的穿搭技巧～
+							<br>女生學著這樣穿不只很帥還 辣 到 爆 ！</div>
+
+						</div>
+					</div>
+
+
+
+
+					<div class="indexInfoBox">
+						<div class="likeButton">
+							<a href=""><img src="images/img/article/share_icon_21.png" height="26" width="26"></a>
+						</div>
+						<div class="smallInfo">
+							<div class="infoPic">
+							<a href=""><img src="images/img/index_22.jpg" height="146" width="146"></a></div>
+							<div class="infoName">
+							<a href="">Ruby Rose</a>
+							</div>
+
+							<div class="infoWords">
+								偷學！Ruby Rose 帥女孩的穿搭技巧～女生學著這樣穿不只很帥還 辣 到 爆 ！
+							</div>
+
+						</div>
+					</div>
+
+
+
+					<div class="indexInfo40Box">
+
+						<div class="likeButton">
+							<a href=""><img src="images/img/article/share_icon_21.png" height="26" width="26"></a>
+						</div>
+
+
+						<div class="indexInfo40">
+							<div class="infoPic">
+							<img src="images/img/blogger_17.jpg" height="257" width="343"></div>
+
+							<div class="info40Article">
+								<a href="articleBlogger_anna.html">
+								<h3>Anna<br>穿上心情就變好的Minna Parikka兔耳鞋</h3></a>
+								<span> A編最近上網搜尋資料的時候，熊熊被這雙有著可愛兔耳朵和無辜毛絨尾巴的平底鞋燒到體無完膚阿~~~~~...</span>
+							</div>
+						</div>
+					</div>
+
+
+
+				</div>
+
+
+
+
+				
+
+
+
+
+				<div class="moreIcon">
+                	<a href="bloggerNews.html"> </a> 
+                </div>
+
+
+
+			</div> 
+			<!-- contentend -->
+
+
+
+				<div class="subscribeSmall">
+					<h2>掌握最新資訊</h2>
+					<p>訂閱WARDROBE的電子報<br>即可收到每週最新資訊</p>
+					<input type="text" name="email" placeholder="請輸入E-mail">
+					<input type="submit" value="送出">
+				</div>
+
+
+
+			<!-- footer -->
+			<div class="footerContainer">
+				<div class="footer">
+					<a href="">ABOUT</a>
+					<a href="">CONTACT</a>
+					© 2016 Wardrobe
+
+					<div class="socialIcon">
+						<ul>
+							<li><a href="https://www.pinterest.com/hsupeii/"><i class="fa fa-pinterest-p"></i></a></li>
+							<li><a href="https://www.instagram.com/hsupeii/"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="https://www.facebook.com/hsupeii"><i class="fa fa-facebook"></i></a></li>
+						</ul>
+					</div>
+
+					<div class="logo2">
+	        			<a href="index.html"><img src="images/img/logo2_15.png" width="90" height="94"></a>
+	     			</div>
+				</div>
+			</div>		
+
+	
+			<div id="somedialog" class="dialog">
+					<div class="dialog__overlay"></div>
+					<div class="dialog__content">
+						<h1><strong>登入會員</strong></h1>
+						<br>
+						<label>帳號: </label><input type="text"><br>
+						<label>密碼: </label><input type="text"><br>
+
+						<div class="login"><a class="action" data-dialog-close>註冊</a></div>
+						<div class="login"><a class="action" data-dialog-close>登入</a></div>
+
+
+						<div class="fb"><a href="">
+						<img src="images/img/ZW4QC.png" height="46" width="202"></a></div>
+
+						
+					</div>
+				</div>
+
+
+
+			<div id="toWardrobe" class="dialog">
+					<div class="dialog__overlay"></div>
+					<div class="dialog__content">
+						<h1><strong>蒐藏到我的衣櫥</strong></h1>
+						<br>請選擇：
+						<div class="myWardrobeSelect" style="margin: 0 auto;float: none;top: 0;">
+
+				          	<select>
+				          		<option value="1">上衣</option>
+				          		<option value="2">想買的</option>
+				          		<option value="3">blogger</option>
+				          		<option value="3">新增...</option>
+				          	</select>
+
+				        </div>
+
+						<div class="login"><a class="action" data-dialog-close>確定</a></div>
+
+						
+
+						
+					</div>
+				</div>
+
+
+
+
+
+	</div><!--body-->
+
+
+				
+				
+		<!--<script src="assets/js/jquery1.10.2.js"></script>
+		<script src="js/bootstrap.min.js"></script>-->
+
+		<!-- There'll be a load of other stuff here -->
+	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="js/unslider.js"></script> <!-- but with the right path! -->
+
+	<script>
+	
+		$('.bigPic').unslider({
+			animation: 'fade', autoplay: true, arrows: false 
+			});
+	</script>
+
+
+
+	<script src="js/classie.js"></script>
+	<script src="js/dialogFx.js"></script>
+	<script>
+		(function() {
+
+			var dlgtrigger = document.querySelector( '[data-dialog]' ),
+				somedialog = document.getElementById( dlgtrigger.getAttribute( 'data-dialog' ) ),
+				dlg = new DialogFx( somedialog );
+
+			dlgtrigger.addEventListener( 'click', dlg.toggle.bind(dlg) );
+
+		})();
+	</script>
+
+	<script>
+		(function() {
+
+			var dlgtrigger = document.querySelector( '[like]' ),
+				toWardrobe = document.getElementById( dlgtrigger.getAttribute( 'like' ) ),
+				dlg = new DialogFx( toWardrobe );
+
+			dlgtrigger.addEventListener( 'click', dlg.toggle.bind(dlg) );
+
+		})();
+	</script>
+
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "http://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.5&appId=485414601652302";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+<script src="js/jquery.viewportchecker.js"></script>
+<script>
+	$(window).load(function() {
+	$('infoContainer').viewportChecker({
+	classToAdd: 'wardrobe fadeInUp', //classToAdd: 'css樣式 要套用的樣式類別 ex.animated的fadeInUpBig, 
+	offset: 1000,//偵測高度位置 單位是px 可以負值
+	});
+	});
+</script>
+
+
+
+
+	</body>
+	</html>	

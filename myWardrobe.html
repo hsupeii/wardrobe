@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>WARDROBE</title>
+		<!--<link href="css/bootstrap.min.css" rel="stylesheet">
+		[if lt IE 9]>
+			<script src="js/html5shiv.js"></script>
+			<script src="js/respond1.4.2.min.js"></script>
+		<![endif]-->
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link href='http://fonts.googleapis.com/earlyaccess/notosanstc.css' rel='stylesheet' type='text/css'>
+		<link href="wardrobe.css" rel="stylesheet" type="text/css">
+		<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+		<link rel="Bookmark" href="images/favicon.png" type="image/x-icon" />
+
+		<link rel="stylesheet" type="text/css" href="css/dialog.css" />
+		<link rel="stylesheet" type="text/css" href="css/dialog-don.css" />
+		<script src="js/modernizr.custom.js"></script>
+
+
+</head>
+<body>
+
+ <div class="body">
+
+ <svg version="1.0" id="poly" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="960px" height="3212px" viewBox="0 0 960 3212" enable-background="new 0 0 960 3212" xml:space="preserve">
+<polyline class="path" opacity="0.3" fill="none" stroke="#414140" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="9.8541" points="
+	505,24 205,291.47 322.513,458.39 548.433,519.269 648.928,697.544 151.093,896.185 194.45,1162.281 591,1239.47 825,1419.47 
+	697,1649.97 319,1712.47 141,1905.72 213,2148.595 798,2346.532 861,2481.501 492,2562.47 186,2835.47 303.513,3002.39 
+	529.433,3063.269 629.928,3241.544 "/>
+</svg>
+ 		<!--header-->
+ 		<input type="checkbox" name="" id="menuBtn">
+
+
+			<div class="header" >
+				<div class="headerContent">
+				<div class="logo">
+					<a href="index.html" >
+					<img src="images/img/logo.svg" height="80" width="294" alt="logo"></a>
+				</div>
+
+				<div class="ham"><label for="menuBtn"><i class="fa fa-bars"></i></label></div>
+
+				<div class="search">
+
+				<a data-dialog="somedialog" class="trigger"id="login">登入</a>
+
+				<input type="search" placeholder="搜尋" id="search">
+
+				</div>
+				
+
+				<div class="nav">
+					<nav>
+						<ul>
+							<li><a href="bloggerNews.html">名人/部落客</a></li>
+							<li><a href="News.html">流行速報</a></li>
+							<li><a href="itemClothes.html">主題分類</a></li>
+							<li><a href="">我的衣櫥</a></li>
+						</ul>
+					</nav>
+				</div>
+				</div>
+
+				<div class="hamSecondNav">
+     				<nav>
+     					<dl>
+							<dt><input type="search" placeholder="搜尋" id="search"></dt>
+
+							<dt><a href="index.html">首頁</a></dt>
+
+							<dt><a href="#">名人/部落客</a></dt>
+							  <dd>
+							    <ul>
+							      <li><a href="blogger.html">駐站名人/部落客</a></li>
+							      <li><a href="bloggerNews.html">最新文章</a></li>
+							    </ul>
+							  </dd>
+
+							<dt><a href="News.html">流行速報</a></dt>
+							  
+							<dt><a href="#">主題分類</a></dt>
+							  <dd>
+							     <ul>
+							      <li><a href="itemClothes.html">衣著類</a></li>
+							      <li><a href="itemAccessories.html">配件</a></li>	
+							      <li><a href="itemShoes.html">鞋類</a></li>
+							      <li><a href="itemBeauty.html">美妝</a></li>
+							    </ul>
+							  </dd>
+
+							<dt><a href="myWardrobe.html">我的衣櫥</a></dt>
+
+							<dt><a href="#" id="login">登入</a></dt>
+
+						</dl>
+						
+					</nav>
+
+										<!-- <ul>
+							<li><input type="search" placeholder="搜尋" id="search"></li>
+
+							<li><a href="index.html">首頁</a></li>
+
+							<li class="blgUl"><a >名人/部落客▼</a></li>
+							  
+							    <ul class="blgsec">
+							      <li><a href="blogger.html">駐站名人/部落客</a></li>
+							      <li><a href="bloggerNews.html">最新文章</a></li>
+							    </ul>
+							  
+
+							<li><a href="News.html">流行速報</a></li>
+							  
+							<li class="itemUl"><a >主題分類▼</a></li>
+							  
+							     <ul class="itemsec">
+							      <li><a href="itemClothes.html">衣著類</a></li>
+							      <li><a href="itemAccessories.html">配件</a></li>	
+							      <li><a href="itemShoes.html">鞋類</a></li>
+							      <li><a href="itemBeauty.html">美妝</a></li>
+							    </ul>
+							  
+
+							<li><a href="myWardrobe.html">我的衣櫥</a></li>
+
+							<li><a href="#" id="login">登入</a></li>
+
+						</ul> -->
+     			</div>
+
+
+
+
+			</div> <!-- header -->
+
+
+		<div class="wardrobeHead clearfix"> 
+
+
+          </div>
+
+        <div class="wardrobeHeadPic">
+          <img src="images/img/mywardrobe/myWardrobeBig-01.png" width="514px" height="203px">
+          <div class="myWardrobeSelect">
+          	<select>
+          		<option value="1">上衣</option>
+          		<option value="2">想買的</option>
+          		<option value="3">blogger</option>
+          		<option value="3">新增...</option>
+          	</select>
+
+          </div>
+        </div>
+		
+
+        <!-- content -->
+        <div class="content">
+		        	
+
+
+		<div class="wardrobeContainer clearfix fadeIn">
+			<div class="wardrobeLine">
+				<!--1-1-->
+				<div class="myWardrobeNews">
+					<div class="deletenews">
+						<a href=""><i class="fa fa-times"></i></a>
+					</div>
+					<div class="myWardrobeNewsPic">
+						<img src="images/img//mywardrobe/mywardrobe_07.jpg">
+					</div>
+
+					<div class="myWardrobeNewsInfo">
+						<a href="#"><h1>將中性風格演繹得淋漓盡致！</h1></a>
+						<p class="date">2016/02/23</p>
+					</div>
+				</div>
+
+				<!--1-2-->
+				<div class="myWardrobeNews">
+					<div class="deletenews">
+						<a href=""><i class="fa fa-times"></i></a>
+					</div>
+
+					<div class="myWardrobeNewsPic">
+						<img src="images/img//mywardrobe/mywardrobe_18.jpg">
+					</div>
+
+					<div class="myWardrobeNewsInfo">
+						<a href="#"><h1>模特兒們私下的隨興穿搭</h1></a>
+						<p class="date">2016/02/23</p>
+					</div>
+				</div>
+
+				<!--1-3-->
+				<div class="myWardrobeNews">
+					<div class="deletenews">
+						<a href=""><i class="fa fa-times"></i></a>
+					</div>
+					<div class="myWardrobeNewsPic">
+						<img src="images/img//mywardrobe/mywardrobe_24.jpg">
+					</div>
+
+					<div class="myWardrobeNewsInfo">
+						<a href="#"><h1>2016流行褲款</h1></a>
+						<p class="date" style="right:0px">2016/02/23</p>
+					</div>
+				</div>
+
+			</div>
+
+
+
+
+			<div class="wardrobeLine">
+				<!--2-1-->
+				<div class="myWardrobeNews">
+				<div class="deletenews">
+					<a href=""><i class="fa fa-times"></i></a>
+				</div>
+
+					<div class="myWardrobeNewsPic">
+						<a href="articleNews.html"><img src="images/img/news/news_2_05.jpg" height="277" width="276"></a>
+					</div>
+					<div class="myWardrobeNewsInfo">
+						<a href="articleNews.html"><h1>「色彩美學穿搭」</h1></a>
+						<!-- <p class="9pt">只要掌握住色彩的搭配，任何單品在身上都會非常和諧，而且讓人感覺到非常舒適</p> -->
+						<p class="date" style="right:0px">2016/02/23</p>
+
+					</div>
+				</div>
+
+				<!--2-2-->
+				<div class="myWardrobeNews">
+					<div class="deletenews">
+						<a href=""><i class="fa fa-times"></i></a>
+					</div>
+					<div class="myWardrobeNewsPic">
+						<a href=""><img src="images/img//mywardrobe/mywardrobe_16.jpg"></a>
+					</div>
+					<div class="myWardrobeNewsInfo">
+						<a href="#"><h1>時尚女生9大生活習慣</h1></a>
+						<p class="date" style="right:0px">2016/02/23</p>
+					</div>
+				</div>
+
+				<!--2-3-->
+				<div class="myWardrobeNews">
+					<div class="deletenews">
+						<a href=""><i class="fa fa-times"></i></a>
+					</div>
+
+					<div class="myWardrobeNewsPic">
+						<img src="images/img//mywardrobe/mywardrobe_22.jpg">
+					</div>
+					<div class="myWardrobeNewsInfo">
+						<a href="#"><h1>融化系漸層柔軟髮～</h1></a>
+						<p class="date" style="right:0px">2016/02/23</p>
+					</div>
+				</div>
+
+
+			</div>
+
+
+
+
+			<div class="wardrobeLine">
+				<!--3-1-->
+				<div class="myWardrobeNews">
+					<div class="deletenews">
+						<a href=""><i class="fa fa-times"></i></a>
+					</div>
+
+					<div class="myWardrobeNewsPic">
+						<img src="images/img//mywardrobe/mywardrobe_11.jpg">
+					</div>
+					<div class="myWardrobeNewsInfo">
+						<a href="#"><h1>Kendall Jenner</h1></a>
+						<p class="9pt">7彩鞋款配色指南</p>
+						<p class="date" style="right:0px">2016/02/23</p>
+					</div>
+				</div>
+
+				<!--3-2-->
+				<div class="myWardrobeNews">
+				<div class="deletenews">
+					<a href=""><i class="fa fa-times"></i></a>
+				</div>
+					<div class="myWardrobeNewsPic">
+						<img src="images/img//mywardrobe/mywardrobe_17.jpg">
+					</div>
+					<div class="myWardrobeNewsInfo">
+						<a href="#"><h1>NIKE<br>最新人氣鞋款</h1></a>
+						<p class="date" style="right:0px">2016/02/23</p>
+					</div>
+				</div>
+
+				<!--3-3-->
+				<div class="myWardrobeNews">
+				<div class="deletenews">
+					<a href=""><i class="fa fa-times"></i></a>
+				</div>
+					<div class="myWardrobeNewsPic">
+						<img src="images/img//mywardrobe/mywardrobe_23.jpg">
+					</div>
+					<div class="myWardrobeNewsInfo">
+						<a href="#"><h1>偷學！Ruby Rose 穿搭技巧</h1></a>
+						<p class="date" style="right:0px">2016/02/23</p>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+		
+
+	  
+
+        </div> <!-- content -->
+
+        <div class="moreBtn">
+	  <a href="#" ><img src="images/img/items/more_button_36.jpg" alt="more" width="61" height="30" id="moreclothes"></a> 
+	  </div>
+
+				<div class="subscribeSmall">
+					<h2>掌握最新資訊</h2>
+					<p>訂閱WARDROBE的電子報<br>即可收到每週最新資訊</p>
+					<input type="text" name="email" placeholder="請輸入E-mail">
+					<input type="submit" value="送出">
+				</div>
+
+        <!-- footer -->
+			<div class="footerContainer">
+				<div class="footer">
+					<a href="">ABOUT</a>
+					<a href="">CONTACT</a>
+					© 2016 Wardrobe
+
+
+
+					<div class="socialIcon">
+						<ul>
+							<li><a href="https://www.pinterest.com/hsupeii/"><i class="fa fa-pinterest-p"></i></a></li>
+							<li><a href="https://www.instagram.com/hsupeii/"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="https://www.facebook.com/hsupeii"><i class="fa fa-facebook"></i></a></li>
+						</ul>
+					</div>
+					
+
+					<div class="logo2">
+	        			<a href="index.html"><img src="images/img/logo2_15.png" width="90" height="94"></a>
+	     			</div>
+				</div>
+			</div>
+
+
+
+
+			<div id="somedialog" class="dialog">
+					<div class="dialog__overlay"></div>
+					<div class="dialog__content">
+						<h1><strong>登入會員</strong></h1>
+						<br>
+						<label>帳號: </label><input type="text"><br>
+						<label>密碼: </label><input type="text"><br>
+
+						<div class="login"><a class="action" data-dialog-close>註冊</a></div>
+						<div class="login"><a class="action" data-dialog-close>登入</a></div>
+
+
+						<div class="fb"><a href="">
+						<img src="images/img/ZW4QC.png" height="46" width="202"></a></div>
+
+						
+					</div>
+				</div>
+
+
+
+
+ </div> <!-- body -->
+
+ 	<script src="js/classie.js"></script>
+	<script src="js/dialogFx.js"></script>
+	<script>
+		(function() {
+
+			var dlgtrigger = document.querySelector( '[data-dialog]' ),
+				somedialog = document.getElementById( dlgtrigger.getAttribute( 'data-dialog' ) ),
+				dlg = new DialogFx( somedialog );
+
+			dlgtrigger.addEventListener( 'click', dlg.toggle.bind(dlg) );
+
+		})();
+	</script>
+	
+</body>
+</html>
